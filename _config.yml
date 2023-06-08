@@ -28,16 +28,17 @@ exclude:
   - not-pure-poole.gemspec
 
 # Optimize Jekyl SEO Tag
-twitter:
-  username: vszhub
-  card: summary
-logo: logo.png
-social:
-  name: 벽광
-  links:
-    - https://twitter.com/vszhub
-    - https://github.com/bu30808
-google_site_verification: xxxxx
+
+#twitter:
+#  username: vszhub
+#  card: summary
+#logo: logo.png
+#social:
+#  name: 벽광
+#  links:
+#    - https://twitter.com/vszhub
+#    - https://github.com/bu30808
+#google_site_verification: xxxxx
 lang: ko-KR
 
 sass:
