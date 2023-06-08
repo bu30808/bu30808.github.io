@@ -1,8 +1,8 @@
 # Setup
-title: Not Pure Poole
-description: A simple, beautiful, and powerful Jekyll theme for blogs
-url: https://vszhub.github.io
-avatar: /avatar.jpeg
+title: 게임 개발을 희망하는 자
+description: 개발 기록 보관용
+url: https://bu30808.github.io
+avatar: /avatar.png
 paginate: 5
 permalink: pretty
 cover_image: /bg.jpeg
@@ -33,12 +33,12 @@ twitter:
   card: summary
 logo: logo.png
 social:
-  name: Songzi Vong
+  name: 벽광
   links:
     - https://twitter.com/vszhub
-    - https://github.com/vszhub
+    - https://github.com/bu30808
 google_site_verification: xxxxx
-lang: en
+lang: ko-KR
 
 sass:
   sass_dir: _sass
@@ -54,6 +54,6 @@ sass:
 
 # Specify the author for blog posts
 author:
-  name: Songzi Vong
-  url: https://github.com/vszhub/
-  email: vszhub@gmail.com
+  name: 벽광
+  url: https://github.com/bu30808/
+  email: bu30808@naver.com
