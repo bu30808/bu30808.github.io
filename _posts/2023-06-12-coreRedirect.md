@@ -1,7 +1,7 @@
 ---
 layout: post
 categories: blog
-title: CoreRedirect
+title: 코어 리디렉트
 date: 2023-06-12
 tags: [코어리디렉트,CoreRedirect,UnrealEngine,Unreal,UE5]
 toc:  true
