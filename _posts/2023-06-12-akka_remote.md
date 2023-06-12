@@ -3,7 +3,7 @@ layout: post
 categories: blog
 title: Akka.NET/AkkaRemote
 date: 2023-06-12
-tags: [Akka.NET,C#]
+tags: [Akka.NET,CSharp,CS]
 toc:  true
 ---
 
