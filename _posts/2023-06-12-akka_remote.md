@@ -97,7 +97,7 @@ var system = ActorSystem.Create("MyActorSystem", config);
 ### Client
 
 #### Program.cs
-```C#
+{% highlight cs linenos %}
 using Akka.Actor;
 using Client;
 
@@ -112,10 +112,10 @@ var Client = actorSystem.ActorOf(Props.Create(() => new TCPClient(server)), "TCP
 Client.Tell("Send To Server HI");
 
 actorSystem.WhenTerminated.Wait();
-```
+{% endhighlight %}
 
 #### TCPClient.cs
-```C#
+{% highlight cs linenos %}
 public class TCPClient : UntypedActor
     {
         //로그를 위한 변수입니다.
@@ -198,14 +198,14 @@ public class TCPClient : UntypedActor
             Console.WriteLine("이제 그만");
         }
     }
-```
+{% endhighlight %}
 
 --------------------------
 
 ### Server
 
 #### Program.cs
-```C#
+{% highlight cs linenos %}
 using Akka.Actor;
 using Server;
 
@@ -217,10 +217,10 @@ var TCPActor = actorSystem.ActorOf<TCPServer>("TCPServer");
 
 actorSystem.WhenTerminated.Wait();
 
-```
+{% endhighlight %}
 
 #### TCPServer.cs
-```C#
+{% highlight cs linenos %}
     public  class TCPServer : UntypedActor
     {
         //로그를 위한 변수입니다.
@@ -252,7 +252,7 @@ actorSystem.WhenTerminated.Wait();
             Sender.Tell("end");
         }
     }
-```
+{% endhighlight %}
 
 단순 숫자를 20만개 보냈을 때 -> 1.3초
 길이가 10인 문자열을 랜덤으로 조립해서 20만개 보냈을 때 -> 1.5~1.6초
