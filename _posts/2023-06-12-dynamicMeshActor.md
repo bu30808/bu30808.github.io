@@ -20,13 +20,16 @@ toc:  true
   + 복합 콜리전 활성화 : true
  
 4.컨스트럭션 스크립트를 다음과 같이 구성합니다.   
+![ex_screenshot](/assets/images/unreal/dynamicMeshActor/dynamicMesh.PNG)
  
-5.구멍을 생성할 함수를 작성합니다.
+5.구멍을 생성할 함수를 작성합니다.   
+![ex_screenshot](/assets/images/unreal/dynamicMeshActor/dynamicMesh_HoleFunction.PNG) 
  
 6.플레이어 캐릭터에 클릭하면 트레이스를 쏴서 구멍을 생성하는 함수를 호출합니다.    
+![ex_screenshot](/assets/images/unreal/dynamicMeshActor/dynamicMesh_MouseTrace.PNG) 
  
 7.결과를 확인합니다.   
- 
+![ex_screenshot](/assets/images/unreal/dynamicMeshActor/dynamicMesh_Result.PNG) 
 
 
 
