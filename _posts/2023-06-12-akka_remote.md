@@ -70,14 +70,14 @@ ActorSelection객체로 특정 경로에 있는 액터를 가져올 수 있었�
 
 * 굳이 config를 건들지 않고 런타임에 설정하는 방법도 있나봄   
 
-```C#
+{% highlight cs linenos %}
 var config = ConfigurationFactory.ParseString(@" akka.remote.dot-netty.tcp 
 { transport-class = ""Akka.Remote.Transport.DotNetty.DotNettyTransport, 
 Akka.Remote"" transport-protocol = tcp port = 8091 hostname = ""127.0.0.1"" }"
 );
 
 var system = ActorSystem.Create("MyActorSystem", config);
-```
+{% endhighlight %}
 
 위 코드를 보면, 런타임중에 설정을 만들어서 던져주는 것을 볼 수 있음.
 
