@@ -1,7 +1,7 @@
 ---
 layout: post
 categories: blog
-title: 앰비언트 사운드
+title: UE5) 앰비언트 사운드
 date: 2023-06-13
 tags: [UE5,UnrealEngine]
 toc:  true
