@@ -18,8 +18,6 @@ toc:  true
 
 
 
-
-
 2. 액터가 하나만 있는것은 아니니까 1번에서 만든 구조체로 배열을 가진 구조체를 만들자.
 ```
 USTRUCT(BlueprintType)
@@ -35,12 +33,12 @@ public:
 
 
 3. 이제 위 구조체에 저장할 대상들을 가져오면 된다.
-
 ```
 //0.저장할 대상들을 가져옵니다.
 TArray<AActor*> OutArr;
 UGameplayStatics::GetAllActorsOfClass(this,AStructureActor::StaticClass(),OutArr);
 ```
+
 
 4. 가져온 대상들을 구조체에 저장하자.
 ```
@@ -57,6 +55,7 @@ for(auto actor : OutArr)
 }
 ```
 
+
 5. 구조체를 Json으로 변환하자.
 ```
 //2.구조체를 Json으로 변환합니다.
@@ -64,7 +63,8 @@ FString JsonString;
 FJsonObjectConverter::UStructToJsonObjectString(DataArray,JsonString);
 ```
 
-6.저장하자.
+
+6. 저장하자.
 ```
 //3.경로에 저장합니다.
 if(!FFileHelper::SaveStringToFile(*JsonString,*(FPaths::ProjectDir()+"Temp.json")))
