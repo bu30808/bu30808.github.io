@@ -1,7 +1,7 @@
 ---
 layout: post
 categories: blog
-title: 다이나믹 메시 액터
+title: UE5) 다이나믹 메시 액터
 date: 2023-06-12
 tags: [DynamicMeshActor,Unreal,UnrealEngine,UE5]
 toc:  true
