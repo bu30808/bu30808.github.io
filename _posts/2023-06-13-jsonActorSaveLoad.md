@@ -1,7 +1,7 @@
 ---
 layout: post
 categories: blog
-title: UE5) JSON 파일 저장 및 불러오기
+title: UE5) JSON으로 액터 저장 및 불러오기
 date: 2023-06-13
 tags: [UE5,UnrealEngine,json]
 toc:  true
@@ -49,3 +49,6 @@ toc:  true
 
 2. 가져온 Json을 구조체로 변환하면 된다.
 <script src="https://gist.github.com/bu30808/37f1a33a3ec88a031e50c732ba471700.js"></script>
+
+3. 불러온 경로를 이용해서 필요하면 스폰하면 된다.
+<script src="https://gist.github.com/bu30808/02d0b88a1e8a2dc6a4028c5e92c568d5.js"></script>
