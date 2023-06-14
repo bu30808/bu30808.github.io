@@ -60,22 +60,7 @@ if (AssetClass != nullptr)
 
 
 ### 이런 방식으로도 사용할 수 있습니다.
-```
-// 동기식으로 Asset을 로드합니다.
-AssetClassPtr.LoadAsset();
-// 로드가 완료될 때까지 대기합니다.
-while (!AssetClassPtr.IsPending())
-{
-    // 대기 중...
-}
-// 로드된 Asset에 액세스합니다.
-UClass* AssetClass = AssetClassPtr.Get();
-if (AssetClass != nullptr)
-{
-    // 로드된 Asset을 사용합니다.
-}
-
-```
+<script src="https://gist.github.com/bu30808/28481ac5689404b5e65e9e750c16143f.js"></script>
 
 
 
