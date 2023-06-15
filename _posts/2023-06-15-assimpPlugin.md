@@ -3,7 +3,7 @@ layout: post
 categories: blog
 title: UE5) 외부 플러그인 적용(Assimp)
 date: 2023-06-15
-tags: [UE5,UnrealEngine,Assimp]
+tags: [UE5,UnrealEngine,Assimp,plugin]
 toc:  true
 ---
 
