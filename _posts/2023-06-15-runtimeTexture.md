@@ -3,7 +3,7 @@ layout: post
 categories: blog
 title: UE5) 런타임 텍스쳐 불러오기 및 내보내기
 date: 2023-06-15
-tags: [UE5,UnrealEngine]
+tags: [UE5,UnrealEngine,texture]
 toc:  true
 ---
 
