@@ -44,3 +44,22 @@ GetAll(파라미터종류)ParameterInfo 함수를 사용하면,
 <script src="https://gist.github.com/bu30808/08ff07597ba5e9da86200a0a6b37fc4d.js"></script>
 
 이후 Get(파라미터종류)ParameterValue 함수로 파라미터 값을 읽어올 수 있다.
+
+<br><br><br><br><br>
+
+## 레벨의 모든 머터리얼 파라미터 변경
+
+머티리얼 파라미터 컬렉션을 사용하면,   
+
+변경할 머티리얼에 일일히 접근할 필요 없이,   
+
+파라미터 콜렉션 내부 값을 변경하는 것으로 모든 머티리얼 파라미터를 변경 가능하다.   
+
+[공식문서](https://docs.unrealengine.com/5.0/ko/using-material-parameter-collections-in-unreal-engine/)
+
+문서상에서는,   
+```
+머티리얼 파라미터 컬렉션 의 값을 업데이트하는 것은 매우 효율적이라, 다수의 머티리얼 인스턴스에 있는 여러 파라미터를 설정하는 것과는 비교조차 안됩니다.
+```
+라고 한다.
+
