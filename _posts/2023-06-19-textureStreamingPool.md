@@ -1,7 +1,7 @@
 ---
 layout: post
 categories: blog
-title: UE5) 텍스처 스트리밍 출 조정
+title: UE5) 텍스처 스트리밍 풀 조정
 date: 2023-06-19
 tags: [UE5,UnrealEngine,TextureStreamingPool]
 toc:  true
