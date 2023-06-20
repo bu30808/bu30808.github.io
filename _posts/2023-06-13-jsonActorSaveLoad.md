@@ -3,6 +3,7 @@ layout: post
 categories: blog
 title: UE5) JSON으로 액터 저장 및 불러오기
 date: 2023-06-13
+last_modified_at: 2020-06-20
 tags: [UE5,UnrealEngine,json]
 toc:  true
 ---
@@ -52,3 +53,20 @@ toc:  true
 
 3. 불러온 경로를 이용해서 필요하면 스폰하면 된다.
 <script src="https://gist.github.com/bu30808/02d0b88a1e8a2dc6a4028c5e92c568d5.js"></script>
+
+### 기타 
+이런 방법도 있다고 적어놓은게 있어서 추가로 작성함.
+
+테스트해보진 않았음.
+
+1. 액터 인스턴스의 경로 가져오기
+```
+FString ActorPath = MyActor->GetPathName();
+```
+
+2. 액터 경로로 인스턴스 생성하기
+```
+AActor* LoadedActor = Cast<AActor>(StaticLoadObject(AActor::StaticClass(), nullptr, *ActorPath));
+```
+
+당연한 소리지만 필요한 세부정보는 따로 저장된 내용을 가져와서 덮어써야 함.
