@@ -115,7 +115,7 @@ UE에 등록할 필요가 있다.
 <br><br><br>
 
 ### 코드설명
-```C#
+```
 private string ThridPartyPath
 {
 		get { return Path.Combine(ModuleDirectory, "../../ThirdParty"); }
@@ -130,7 +130,7 @@ ModuleDirectory는 이 Build.cs파일이 있는 경로를 가져옵니다.
 
 <br><br>
 
-```C#
+```
 ShadowVariableWarningLevel = WarningLevel.Off;
 bEnableUndefinedIdentifierWarnings = false;
 bEnableExceptions = true;
@@ -141,7 +141,7 @@ bEnableExceptions = true;
 
 <br><br>
 
-```C#
+```
 PublicIncludePaths.AddRange(
 		new string[]
 		{
@@ -153,14 +153,14 @@ PublicIncludePaths.AddRange(
 
 <br><br>
 
-```C#
+```
 PublicSystemLibraryPaths.Add(LibraryPath);
 ```
 추가해야할 외부 라이브러리 폴더를 알려줍니다.
 
 <br><br>
 
-```C#
+```
 //이 폴더안에 있는 라이브러리를 몽땅 등록합니다.
 string[] Libs = Directory.GetFiles(LibraryPath);
 PublicAdditionalLibraries.AddRange(Libs); 
@@ -169,7 +169,7 @@ PublicAdditionalLibraries.AddRange(Libs);
 
 <br><br>
 
-```C#
+```
 PublicDefinitions.Add("GOOGLE_PROTOBUF_NO_RTTI");
 PublicDefinitions.Add("GPR_FORBID_UNREACHABLE_CODE");
 PublicDefinitions.Add("GRPC_ALLOW_EXCEPTIONS=0");
@@ -178,7 +178,7 @@ PublicDefinitions.Add("GRPC_ALLOW_EXCEPTIONS=0");
 
 <br><br>
 
-```C#
+```
 PublicSystemLibraries.Add("crypt32.lib");
 ```
 **UE에서 기본적으로 제공하는 OpenSSL의 버전이 낮아 사용할 수 없습니다.**
