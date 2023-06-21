@@ -23,7 +23,8 @@ UE의 경우 install grpc:x64-windows-static-md 를 사용해야 합니다.
 
 [참고한 웹](https://www.lonely.coffee/blog/2020/4/20/ue4-protobuf-and-yarn-spinner)에서는 다음과 같이 설명하고 있습니다.
 ```
-마지막 부분(-md)은 라이브러리가 멀티스레드 특정 라이브러리로 구축되기를 원한다는 것이며, 이는 타사 코드를 Unreal에 연결하기 위한 요구 사항입니다.
+마지막 부분(-md)은 라이브러리가 멀티스레드 특정 라이브러리로 구축되기를 원한다는 것이며,
+이는 타사 코드를 Unreal에 연결하기 위한 요구 사항입니다.
 ```
 
 
