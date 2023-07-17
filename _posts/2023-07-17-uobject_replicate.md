@@ -3,7 +3,7 @@ layout: post
 categories: blog
 title: UE5) UObject Replicate
 date: 2023-07-17
-tags: [UnrealEngine,Unreal,UE5,gRPC]
+tags: [UnrealEngine,Unreal,UE5,Replicate]
 toc:  true
 ---
 
