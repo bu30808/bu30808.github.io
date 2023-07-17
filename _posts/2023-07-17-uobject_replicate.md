@@ -18,6 +18,7 @@ Replicate 시킬 UObject 클래스 내부에 다음 함수를 구현
 
 
 * MyObj.h
+  
 ```
 virtual bool IsSupportedForNetworking() const override;
 
@@ -26,8 +27,10 @@ virtual bool CallRemoteFunction(UFunction* Function, void* Parms, FOutParmRec* O
 virtual int32 GetFunctionCallspace(UFunction* Function, FFrame* Stack) override;
 ```
 
+
 * MyObj.cpp
-```c++
+
+```
 bool UAbilityBase::IsSupportedForNetworking() const
 {
 	return true;
