@@ -39,6 +39,7 @@ PlayFabClientPtr PlayFabClient = nullptr;
 ```
 
 2. 다음과 같이 클라이언트 API를 가져와 저장한다.
+   
 ```
 if (PlayFabClient.IsValid() == false)
 {
