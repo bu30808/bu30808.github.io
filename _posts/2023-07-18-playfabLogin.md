@@ -32,6 +32,7 @@ JSON 모듈도 같이 추가했는데, 플레이팹 내부 DB를 건드릴 때 �
 
 
 1. PlayFabClient 초기화
+
 어딘가에 변수를 선언하고,
 ```
 PlayFabClientPtr PlayFabClient = nullptr;
