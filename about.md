@@ -3,6 +3,8 @@ layout: page
 title: 이력
 ---
 
+E-mail : bu30808@naver.com
+
 -----------------------
 
 2022.04 ~ 재직중<br>
