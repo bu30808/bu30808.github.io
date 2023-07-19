@@ -11,7 +11,7 @@ toc:  true
 
 간단하게 말하면 개인 데이터베이스 생각하면 되시겠다.
 
-(개발자 대시보드)[https://developer.playfab.com/ko-kr]에 플레이어 텝에서 특정 플레이어를 검색한 뒤,
+[개발자 대시보드](https://developer.playfab.com/ko-kr)에 플레이어 텝에서 특정 플레이어를 검색한 뒤,
 
 해당 플레이어의 이름을 클릭해 상세정보로 들어가자.
 
