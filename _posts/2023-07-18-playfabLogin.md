@@ -12,7 +12,7 @@ toc:  true
 플레이팹 플러그인 내부 기능을 코드에다 갖다 쓰려면 일단 모듈부터 추가하자.
 
 ```
- "PlayFab", "PlayFabCpp", "PlayFabCommon","JsonUtilities","Json","PlayFabCommon" 
+ "PlayFab", "PlayFabCpp", "PlayFabCommon","JsonUtilities","Json"
 ```
 JSON 모듈도 같이 추가했는데, 플레이팹 내부 DB를 건드릴 때 사용하기 때문에 같이 추가해줬다.
 
