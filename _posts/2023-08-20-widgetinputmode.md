@@ -25,6 +25,6 @@ UWidgetBlueprintLibrary::SetInputMode_GameAndUIEx(GetOwningPlayer(),this);
 
 닫을 때,
 ```
-UWidgetBlueprintLibrary::SetInputMode_GameAndUIEx(GetOwningPlayer(),nullptr);
+UWidgetBlueprintLibrary::SetInputMode_GameOnly(GetOwningPlayer());
 ```
-비워주면 된다.
+다시 바꿔주면 된다.
