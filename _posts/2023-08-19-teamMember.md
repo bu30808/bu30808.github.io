@@ -1,4 +1,4 @@
-  ---
+---
 layout: post
 categories: blog
 title: 게임만들어야지
