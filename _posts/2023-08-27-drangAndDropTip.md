@@ -1,7 +1,7 @@
 ---
 layout: post
 categories: blog
-title: UE5) 싱글톤을 대체하는 서브시스템
+title: UE5) 드래그 앤 드롭의 문제와 해결
 date: 2023-08-27
 tags: [UnrealEngine,Unreal,UE5,Drag&Drop]
 toc:  true
