@@ -15,7 +15,7 @@ toc:  true
 
 내가 저장해야 할 데이터는 다음과 같다.
 
-![ex_screenshot](/assets/images/unreal/myProejct/orbSystem.png)
+![ex_screenshot](/assets/images/unreal/myProject/orbSystem.png)
 
 이걸 코드로 하나씩 저장한다? 미친짓인거 같아 에디터 유틸리티 위젯을 이용해 툴을 만들기로 했다.
 
