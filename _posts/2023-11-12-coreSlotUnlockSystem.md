@@ -8,18 +8,25 @@ toc:  true
 ---
 
 ## 신력구슬 슬롯 잠금 해제
+<br>
 
 이제 신력구슬 슬롯의 일부는 잠겨진 상태로 시작   
 ![ex_screenshot](/assets/images/unreal/myProject/23.11.12/Locked.png)
-
-
+<br>
+<br>
+<br>
+   
 NPC를 통해 일정 비용을 지불하고 잠금 해제할 수 있다.   
 ![ex_screenshot](/assets/images/unreal/myProject/23.11.12/UnlockMenu.png)
-
-
+<br>
+<br>
+<br>
+   
 물론 이전슬롯이 잠겨있으면, 잠금해제가 불가능하다.   
 ![ex_screenshot](/assets/images/unreal/myProject/23.11.12/UnlockError.png)
-
-
+<br>
+<br>
+<br>
+   
 몇몇 슬롯이 잠금 해제된 상태   
-![ex_screenshot](/assets/images/unreal/myProject/23.11.12/Unlock.png)
+![ex_screenshot](/assets/images/unreal/myProject/23.11.12/Unlocked.png)
