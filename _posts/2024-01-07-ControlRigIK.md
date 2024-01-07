@@ -13,7 +13,7 @@ toc:  true
 
 아 근데 어차피 컨트롤릭 내부에서도 Tick을 도니까 그게 그거인가 뭐 아무튼
 
-삽질의 끝에 결국에는 IK적용에 성공했다.
+삽질의 끝에 결국에는 IK적용에 성공했다. 
 
 ![ex_screenshot](/assets/images/unreal/myProject/24.01.07/ik01.png)
 
