@@ -2,7 +2,7 @@
 layout: post
 categories: blog
 title: 월드 파티션 기록
-date: 2024-03-018
+date: 2024-03-18
 tags: [UnrealEngine,Unreal,UE5,월드파티션]
 toc:  true
 ---
