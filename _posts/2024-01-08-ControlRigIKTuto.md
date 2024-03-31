@@ -1,7 +1,7 @@
 ---
 layout: post
 categories: blog
-title: 컨트롤 릭 IK 듀토리얼
+title: 컨트롤 릭 IK 튜토리얼
 date: 2024-01-08
 tags: [UnrealEngine,Unreal,UE5,개인프로젝트,ControlRigIK]
 toc:  true
