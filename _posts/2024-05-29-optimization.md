@@ -50,6 +50,7 @@ GPU보고 대신 하라고 넘겨줬다.
 ![ex_screenshot](/assets/images/unreal/myProject/24.05.29/analyze.png)  
 **인사이트 결과, 게임스레드 필터링**   
 
+
 SK_Skeleton, 및 SK_Lich에서 시간이 많이 걸린다. 
 
 요 두개는 내가 배치한 몬스터들이 사용하는 스켈레탈 메시 이름이다.
